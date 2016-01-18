@@ -1,0 +1,259 @@
+html, body {
+  background-color: #cccdce;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+ 
+}
+
+
+/* HEADER */ 
+
+.header {
+  background-color: #fff;
+  height: 140px;
+  text-align: center;
+  margin-bottom: 1000;
+  padding: 20
+}
+
+.header h1 {
+  color: #31363d;
+  font-size: 25px;
+  margin: 0 ;
+	position: relative;
+	padding-bottom: 10px;
+	font-style: italic;
+	top: 44px;
+
+}
+
+
+.trigger {
+
+color: orange;
+
+}
+
+.lost {
+
+color: green;
+
+} 
+
+/* NAV */
+
+.nav {
+margin: 100
+}
+
+.nav p {
+text-align: center
+}
+
+
+.nav ul {
+  margin: 0 ;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.nav li {
+ 
+  transition:color 0.25s;
+  display:inline;
+    font-style: italic;
+    color: black;
+    display: inline;
+ 
+    padding: 0px 10px;
+   
+    transition: color 0.25s;
+}
+
+
+.nav li:hover {
+  color: purple;
+  background-color: yellow;
+  cursor: pointer; 
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+
+
+/* CONTAINER */
+
+
+
+.container {
+
+border-top: thin double black;
+  
+      padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  
+
+ 		 width:970px;
+
+}
+
+
+
+
+/* ROW */
+
+
+.row {
+  margin-top: 30px;
+  margin-right: -15px;
+    margin-left: -15px;
+ 
+}
+
+.row video {
+width: 100%
+}
+
+
+/* COLUMNS */
+
+
+
+.col-md-4 {
+    width: 33.333%;
+    float: center;
+}
+
+
+
+/* FOOTER */ 
+
+
+.footer {
+ color: #31363d;
+font-size: 10px;
+height: 100px;
+line-height: 70px; 
+padding-right: 40px;
+text-align: right;
+text-transform: uppercase;
+
+}
+
+
+
+/* NEW CONTENT */ 
+
+.new-content {
+border: 5px solid navy;;
+height: 500px;
+width: 100%;
+padding-left: 15;
+padding-right: 15;
+margin-right: auto;
+    margin-left: auto;
+    background-color: green;
+     background: url(http://assets.hightimes.com/MarijuanaVsCannabis-PotTerms_0.jpg) no-repeat center center; 
+ 
+  background-size: cover;
+}
+
+
+/* JUNK */
+
+.junk {
+
+color: white;
+font-style: italic;
+
+
+}
+
+
+
+
+/* BOTTOM */ 
+
+
+
+.bottom {
+
+
+  
+      padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+  
+			height: 100px;
+ 		 width:970px;
+}
+
+
+ .bottom p {
+
+text-align: center
+
+}
+
+.bottom p .btn1:hover {
+
+  background-color: yellow;
+  cursor: pointer; 
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  
+  }
+
+
+
+
+
+
+/* ELEMENTS */ 
+
+.btn {
+
+color: white;
+background-color: orange;
+
+}
+
+
+.btn:hover {
+ transition:color 0.25s;
+  font-style: italic;
+ color: white;
+ transition: color 0.25s;
+ background-color: blue;
+}
+
+img{
+  vertical-align: middle;
+ 
+}
+
+.img-img {
+
+width: 100px;
+
+}
+  
+
+.img-responsive {
+        display: block;
+    max-width: 100%;
+    height: auto;
+ }
+ img.img-responsive {
+ height: 200px;
+ width: 400px
+ }
+ 
+span {
+color: purple;
+}
